@@ -7,7 +7,7 @@ We received a file named `ch2.pcap`. We can open it with Wireshark:
 
 Filter the packet capture using `telnet`:![enter image description here](https://i.imgur.com/yq81H9O.png)
 
-Telnet is not a secure communication protocol because it does not use any security mechanism and transfers the data over network/internet in a plain-text form including the passwords so we can easily view the data of all packets:![enter image description here](https://i.imgur.com/6F9bU1k.png)
+Telnet is not a secure communication protocol because it does not use any security mechanism and transfers the data over the network/internet in a plain-text form including the passwords so we can easily view the data of all packets:![enter image description here](https://i.imgur.com/6F9bU1k.png)
 
-Telnet sends characters one by one so we will have to view all packets to get the username/password in normal way. But a faster way is to right-click on a line, choose `Follow` and then `TCP Stream`. This will put all data together and we will be able to see everything that happened during the session include the username/password:![enter image description here](https://i.imgur.com/sJrZMY3.png)Password:`user`
+Telnet sends characters one by one so we will have to view all packets to get the username/password normally. But a faster way is to right-click on a line, choose `Follow`, and then `TCP Stream`. This will put all the data together and we will be able to see everything that happened during the session including the username/password:![enter image description here](https://i.imgur.com/sJrZMY3.png)Password:`user`
 
